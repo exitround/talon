@@ -49,7 +49,7 @@ def install_pyml():
     pyml_tarball = (
         'http://hivelocity.dl.sourceforge.net/project/pyml/PyML-0.7.13.3.tar.gz'
     )
-    pyml_srcidr = 'PyML-0.7.13'
+    pyml_srcidr = 'PyML-0.7.13.3'
 
     # see if PyML tarball needs to be fetched:
     if not dir_exists(pyml_srcidr):
